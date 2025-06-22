@@ -1,0 +1,2557 @@
+{
+  "access_type": "PUBLIC",
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "File",
+            "id": "File-tprLy",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "OpenRouterComponent-9LVwZ",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__File-tprLy{œdataTypeœ:œFileœ,œidœ:œFile-tprLyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-OpenRouterComponent-9LVwZ{œfieldNameœ:œinput_valueœ,œidœ:œOpenRouterComponent-9LVwZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "File-tprLy",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-tprLyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "OpenRouterComponent-9LVwZ",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œOpenRouterComponent-9LVwZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenRouterComponent",
+            "id": "OpenRouterComponent-9LVwZ",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-y1JlZ",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__OpenRouterComponent-9LVwZ{œdataTypeœ:œOpenRouterComponentœ,œidœ:œOpenRouterComponent-9LVwZœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-y1JlZ{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-y1JlZœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "OpenRouterComponent-9LVwZ",
+        "sourceHandle": "{œdataTypeœ:œOpenRouterComponentœ,œidœ:œOpenRouterComponent-9LVwZœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-y1JlZ",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-y1JlZœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt",
+            "id": "Prompt-1USrc",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "text2",
+            "id": "CombineText-1Zbw7",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt-1USrc{œdataTypeœ:œPromptœ,œidœ:œPrompt-1USrcœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-CombineText-1Zbw7{œfieldNameœ:œtext2œ,œidœ:œCombineText-1Zbw7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt-1USrc",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-1USrcœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CombineText-1Zbw7",
+        "targetHandle": "{œfieldNameœ:œtext2œ,œidœ:œCombineText-1Zbw7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "CombineText",
+            "id": "CombineText-1Zbw7",
+            "name": "combined_text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "system_message",
+            "id": "OpenRouterComponent-9LVwZ",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__CombineText-1Zbw7{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-1Zbw7œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}-OpenRouterComponent-9LVwZ{œfieldNameœ:œsystem_messageœ,œidœ:œOpenRouterComponent-9LVwZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "CombineText-1Zbw7",
+        "sourceHandle": "{œdataTypeœ:œCombineTextœ,œidœ:œCombineText-1Zbw7œ,œnameœ:œcombined_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "OpenRouterComponent-9LVwZ",
+        "targetHandle": "{œfieldNameœ:œsystem_messageœ,œidœ:œOpenRouterComponent-9LVwZœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatOutput",
+            "id": "ChatOutput-y1JlZ",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "message",
+            "id": "MessagetoData-5zRZR",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatOutput-y1JlZ{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-y1JlZœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-MessagetoData-5zRZR{œfieldNameœ:œmessageœ,œidœ:œMessagetoData-5zRZRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatOutput-y1JlZ",
+        "sourceHandle": "{œdataTypeœ:œChatOutputœ,œidœ:œChatOutput-y1JlZœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "MessagetoData-5zRZR",
+        "targetHandle": "{œfieldNameœ:œmessageœ,œidœ:œMessagetoData-5zRZRœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "MessagetoData",
+            "id": "MessagetoData-5zRZR",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "ingest_data",
+            "id": "AstraDB-aQM8K",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__MessagetoData-5zRZR{œdataTypeœ:œMessagetoDataœ,œidœ:œMessagetoData-5zRZRœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-AstraDB-aQM8K{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-aQM8Kœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "MessagetoData-5zRZR",
+        "sourceHandle": "{œdataTypeœ:œMessagetoDataœ,œidœ:œMessagetoData-5zRZRœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "AstraDB-aQM8K",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-aQM8Kœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "TextInput",
+            "id": "TextInput-SiMRA",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "text1",
+            "id": "CombineText-1Zbw7",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__TextInput-SiMRA{œdataTypeœ:œTextInputœ,œidœ:œTextInput-SiMRAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-CombineText-1Zbw7{œfieldNameœ:œtext1œ,œidœ:œCombineText-1Zbw7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "TextInput-SiMRA",
+        "sourceHandle": "{œdataTypeœ:œTextInputœ,œidœ:œTextInput-SiMRAœ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CombineText-1Zbw7",
+        "targetHandle": "{œfieldNameœ:œtext1œ,œidœ:œCombineText-1Zbw7œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "File-tprLy",
+          "node": {
+            "base_classes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "beta": false,
+            "category": "data",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "",
+            "display_name": "Resume",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "path",
+              "file_path",
+              "separator",
+              "silent_errors",
+              "delete_server_file_after_processing",
+              "ignore_unsupported_extensions",
+              "ignore_unspecified_files",
+              "use_multithreading",
+              "concurrency_multithreading"
+            ],
+            "frozen": false,
+            "icon": "file-text",
+            "key": "File",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data",
+                "method": "load_files",
+                "name": "data",
+                "required_inputs": [],
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "method": "load_dataframe",
+                "name": "dataframe",
+                "required_inputs": [],
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "load_message",
+                "name": "message",
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 9.159206968830713e-17,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data import BaseFileComponent\nfrom langflow.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, parse_text_file_to_data\nfrom langflow.io import BoolInput, IntInput\nfrom langflow.schema import Data\n\n\nclass FileComponent(BaseFileComponent):\n    \"\"\"Handles loading and processing of individual or zipped text files.\n\n    This component supports processing multiple valid files within a zip archive,\n    resolving paths, validating file types, and optionally using multithreading for processing.\n    \"\"\"\n\n    display_name = \"File\"\n    description = \"Load a file to be used in your project.\"\n    icon = \"file-text\"\n    name = \"File\"\n\n    VALID_EXTENSIONS = TEXT_FILE_TYPES\n\n    inputs = [\n        *BaseFileComponent._base_inputs,\n        BoolInput(\n            name=\"use_multithreading\",\n            display_name=\"[Deprecated] Use Multithreading\",\n            advanced=True,\n            value=True,\n            info=\"Set 'Processing Concurrency' greater than 1 to enable multithreading.\",\n        ),\n        IntInput(\n            name=\"concurrency_multithreading\",\n            display_name=\"Processing Concurrency\",\n            advanced=True,\n            info=\"When multiple files are being processed, the number of files to process concurrently.\",\n            value=1,\n        ),\n    ]\n\n    outputs = [\n        *BaseFileComponent._base_outputs,\n    ]\n\n    def process_files(self, file_list: list[BaseFileComponent.BaseFile]) -> list[BaseFileComponent.BaseFile]:\n        \"\"\"Processes files either sequentially or in parallel, depending on concurrency settings.\n\n        Args:\n            file_list (list[BaseFileComponent.BaseFile]): List of files to process.\n\n        Returns:\n            list[BaseFileComponent.BaseFile]: Updated list of files with merged data.\n        \"\"\"\n\n        def process_file(file_path: str, *, silent_errors: bool = False) -> Data | None:\n            \"\"\"Processes a single file and returns its Data object.\"\"\"\n            try:\n                return parse_text_file_to_data(file_path, silent_errors=silent_errors)\n            except FileNotFoundError as e:\n                msg = f\"File not found: {file_path}. Error: {e}\"\n                self.log(msg)\n                if not silent_errors:\n                    raise\n                return None\n            except Exception as e:\n                msg = f\"Unexpected error processing {file_path}: {e}\"\n                self.log(msg)\n                if not silent_errors:\n                    raise\n                return None\n\n        if not file_list:\n            msg = \"No files to process.\"\n            raise ValueError(msg)\n\n        concurrency = 1 if not self.use_multithreading else max(1, self.concurrency_multithreading)\n        file_count = len(file_list)\n\n        parallel_processing_threshold = 2\n        if concurrency < parallel_processing_threshold or file_count < parallel_processing_threshold:\n            if file_count > 1:\n                self.log(f\"Processing {file_count} files sequentially.\")\n            processed_data = [process_file(str(file.path), silent_errors=self.silent_errors) for file in file_list]\n        else:\n            self.log(f\"Starting parallel processing of {file_count} files with concurrency: {concurrency}.\")\n            file_paths = [str(file.path) for file in file_list]\n            processed_data = parallel_load_data(\n                file_paths,\n                silent_errors=self.silent_errors,\n                load_function=process_file,\n                max_concurrency=concurrency,\n            )\n\n        # Use rollup_basefile_data to merge processed data with BaseFile objects\n        return self.rollup_data(file_list, processed_data)\n"
+              },
+              "concurrency_multithreading": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Processing Concurrency",
+                "dynamic": false,
+                "info": "When multiple files are being processed, the number of files to process concurrently.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "concurrency_multithreading",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1
+              },
+              "delete_server_file_after_processing": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Delete Server File After Processing",
+                "dynamic": false,
+                "info": "If true, the Server File Path will be deleted after processing.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "delete_server_file_after_processing",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "file_path": {
+                "_input_type": "HandleInput",
+                "advanced": true,
+                "display_name": "Server File Path",
+                "dynamic": false,
+                "info": "Data object with a 'file_path' property pointing to server file or a Message object with a path to the file. Supercedes 'Path' but supports same file types.",
+                "input_types": [
+                  "Data",
+                  "Message"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "file_path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "ignore_unspecified_files": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Unspecified Files",
+                "dynamic": false,
+                "info": "If true, Data with no 'file_path' property will be ignored.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "ignore_unspecified_files",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "ignore_unsupported_extensions": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Unsupported Extensions",
+                "dynamic": false,
+                "info": "If true, files with unsupported extensions will not be processed.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "ignore_unsupported_extensions",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "path": {
+                "_input_type": "FileInput",
+                "advanced": false,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "zip",
+                  "tar",
+                  "tgz",
+                  "bz2",
+                  "gz"
+                ],
+                "file_path": [
+                  "e8d9908e-eb56-4d52-842c-f827fbe23e0c/2025-05-08_11-13-36_resume.pdf"
+                ],
+                "info": "Supported file extensions: txt, md, mdx, csv, json, yaml, yml, xml, html, htm, pdf, docx, py, sh, sql, js, ts, tsx; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": false,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "file",
+                "value": ""
+              },
+              "separator": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "Specify the separator to use between multiple outputs in Message format.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "separator",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n\n"
+              },
+              "silent_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Silent Errors",
+                "dynamic": false,
+                "info": "If true, errors will not raise an exception.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "silent_errors",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "use_multithreading": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "[Deprecated] Use Multithreading",
+                "dynamic": false,
+                "info": "Set 'Processing Concurrency' greater than 1 to enable multithreading.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_multithreading",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "File"
+        },
+        "dragging": false,
+        "id": "File-tprLy",
+        "measured": {
+          "height": 291,
+          "width": 320
+        },
+        "position": {
+          "x": 1404.5256562881295,
+          "y": -968.9334255732488
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "OpenRouterComponent-9LVwZ",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "category": "models",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "",
+            "display_name": "META -Llama",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "api_key",
+              "site_url",
+              "app_name",
+              "provider",
+              "model_name",
+              "temperature",
+              "max_tokens"
+            ],
+            "frozen": false,
+            "icon": "OpenRouter",
+            "key": "OpenRouterComponent",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": null,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "hidden": null,
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": [
+                  "api_key",
+                  "model_name"
+                ],
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.001,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "OpenRouter API Key",
+                "dynamic": false,
+                "info": "Your OpenRouter API key",
+                "input_types": [
+                  "Message"
+                ],
+                "load_from_db": false,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "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"
+              },
+              "app_name": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "App Name",
+                "dynamic": false,
+                "info": "Your app name for OpenRouter rankings",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "app_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections import defaultdict\nfrom typing import Any\n\nimport httpx\nfrom langchain_openai import ChatOpenAI\nfrom pydantic.v1 import SecretStr\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.inputs import (\n    DropdownInput,\n    IntInput,\n    SecretStrInput,\n    SliderInput,\n    StrInput,\n)\n\n\nclass OpenRouterComponent(LCModelComponent):\n    \"\"\"OpenRouter API component for language models.\"\"\"\n\n    display_name = \"OpenRouter\"\n    description = (\n        \"OpenRouter provides unified access to multiple AI models from different providers through a single API.\"\n    )\n    icon = \"OpenRouter\"\n\n    inputs = [\n        *LCModelComponent._base_inputs,\n        SecretStrInput(\n            name=\"api_key\", display_name=\"OpenRouter API Key\", required=True, info=\"Your OpenRouter API key\"\n        ),\n        StrInput(\n            name=\"site_url\",\n            display_name=\"Site URL\",\n            info=\"Your site URL for OpenRouter rankings\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"app_name\",\n            display_name=\"App Name\",\n            info=\"Your app name for OpenRouter rankings\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"provider\",\n            display_name=\"Provider\",\n            info=\"The AI model provider\",\n            options=[\"Loading providers...\"],\n            value=\"Loading providers...\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model\",\n            info=\"The model to use for chat completion\",\n            options=[\"Select a provider first\"],\n            value=\"Select a provider first\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.7,\n            range_spec=RangeSpec(min=0, max=2, step=0.01),\n            info=\"Controls randomness. Lower values are more deterministic, higher values are more creative.\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate\",\n            advanced=True,\n        ),\n    ]\n\n    def fetch_models(self) -> dict[str, list]:\n        \"\"\"Fetch available models from OpenRouter API and organize them by provider.\"\"\"\n        url = \"https://openrouter.ai/api/v1/models\"\n\n        try:\n            with httpx.Client() as client:\n                response = client.get(url)\n                response.raise_for_status()\n\n                models_data = response.json().get(\"data\", [])\n                provider_models = defaultdict(list)\n\n                for model in models_data:\n                    model_id = model.get(\"id\", \"\")\n                    if \"/\" in model_id:\n                        provider = model_id.split(\"/\")[0].title()\n                        provider_models[provider].append(\n                            {\n                                \"id\": model_id,\n                                \"name\": model.get(\"name\", \"\"),\n                                \"description\": model.get(\"description\", \"\"),\n                                \"context_length\": model.get(\"context_length\", 0),\n                            }\n                        )\n\n                return dict(provider_models)\n\n        except httpx.HTTPError as e:\n            self.log(f\"Error fetching models: {e!s}\")\n            return {\"Error\": [{\"id\": \"error\", \"name\": f\"Error fetching models: {e!s}\"}]}\n\n    def build_model(self) -> LanguageModel:\n        \"\"\"Build and return the OpenRouter language model.\"\"\"\n        model_not_selected = \"Please select a model\"\n        api_key_required = \"API key is required\"\n\n        if not self.model_name or self.model_name == \"Select a provider first\":\n            raise ValueError(model_not_selected)\n\n        if not self.api_key:\n            raise ValueError(api_key_required)\n\n        api_key = SecretStr(self.api_key).get_secret_value()\n\n        # Build base configuration\n        kwargs: dict[str, Any] = {\n            \"model\": self.model_name,\n            \"openai_api_key\": api_key,\n            \"openai_api_base\": \"https://openrouter.ai/api/v1\",\n            \"temperature\": self.temperature if self.temperature is not None else 0.7,\n        }\n\n        # Add optional parameters\n        if self.max_tokens:\n            kwargs[\"max_tokens\"] = self.max_tokens\n\n        headers = {}\n        if self.site_url:\n            headers[\"HTTP-Referer\"] = self.site_url\n        if self.app_name:\n            headers[\"X-Title\"] = self.app_name\n\n        if headers:\n            kwargs[\"default_headers\"] = headers\n\n        try:\n            return ChatOpenAI(**kwargs)\n        except (ValueError, httpx.HTTPError) as err:\n            error_msg = f\"Failed to build model: {err!s}\"\n            self.log(error_msg)\n            raise ValueError(error_msg) from err\n\n    def _get_exception_message(self, e: Exception) -> str | None:\n        \"\"\"Get a message from an OpenRouter exception.\n\n        Args:\n            e (Exception): The exception to get the message from.\n\n        Returns:\n            str | None: The message from the exception, or None if no specific message can be extracted.\n        \"\"\"\n        try:\n            from openai import BadRequestError\n\n            if isinstance(e, BadRequestError):\n                message = e.body.get(\"message\")\n                if message:\n                    return message\n        except ImportError:\n            pass\n        return None\n\n    def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        \"\"\"Update build configuration based on field updates.\"\"\"\n        try:\n            if field_name is None or field_name == \"provider\":\n                provider_models = self.fetch_models()\n                build_config[\"provider\"][\"options\"] = sorted(provider_models.keys())\n                if build_config[\"provider\"][\"value\"] not in provider_models:\n                    build_config[\"provider\"][\"value\"] = build_config[\"provider\"][\"options\"][0]\n\n            if field_name == \"provider\" and field_value in self.fetch_models():\n                provider_models = self.fetch_models()\n                models = provider_models[field_value]\n\n                build_config[\"model_name\"][\"options\"] = [model[\"id\"] for model in models]\n                if models:\n                    build_config[\"model_name\"][\"value\"] = models[0][\"id\"]\n\n                tooltips = {\n                    model[\"id\"]: (f\"{model['name']}\\nContext Length: {model['context_length']}\\n{model['description']}\")\n                    for model in models\n                }\n                build_config[\"model_name\"][\"tooltips\"] = tooltips\n\n        except httpx.HTTPError as e:\n            self.log(f\"Error updating build config: {e!s}\")\n            build_config[\"provider\"][\"options\"] = [\"Error loading providers\"]\n            build_config[\"provider\"][\"value\"] = \"Error loading providers\"\n            build_config[\"model_name\"][\"options\"] = [\"Error loading models\"]\n            build_config[\"model_name\"][\"value\"] = \"Error loading models\"\n\n        return build_config\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Model",
+                "dynamic": false,
+                "info": "The model to use for chat completion",
+                "name": "model_name",
+                "options": [
+                  "meta-llama/llama-guard-4-12b",
+                  "meta-llama/llama-4-maverick:free",
+                  "meta-llama/llama-4-maverick",
+                  "meta-llama/llama-4-scout:free",
+                  "meta-llama/llama-4-scout",
+                  "meta-llama/llama-guard-3-8b",
+                  "meta-llama/llama-3.3-70b-instruct:free",
+                  "meta-llama/llama-3.3-70b-instruct",
+                  "meta-llama/llama-3.2-3b-instruct:free",
+                  "meta-llama/llama-3.2-3b-instruct",
+                  "meta-llama/llama-3.2-1b-instruct:free",
+                  "meta-llama/llama-3.2-1b-instruct",
+                  "meta-llama/llama-3.2-90b-vision-instruct",
+                  "meta-llama/llama-3.2-11b-vision-instruct:free",
+                  "meta-llama/llama-3.2-11b-vision-instruct",
+                  "meta-llama/llama-3.1-405b:free",
+                  "meta-llama/llama-3.1-405b",
+                  "meta-llama/llama-3.1-8b-instruct:free",
+                  "meta-llama/llama-3.1-8b-instruct",
+                  "meta-llama/llama-3.1-405b-instruct",
+                  "meta-llama/llama-3.1-70b-instruct",
+                  "meta-llama/llama-guard-2-8b",
+                  "meta-llama/llama-3-8b-instruct",
+                  "meta-llama/llama-3-70b-instruct",
+                  "meta-llama/llama-2-70b-chat"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "tooltips": {
+                  "meta-llama/llama-2-70b-chat": "Meta: Llama 2 70B Chat\nContext Length: 4096\nThe flagship, 70 billion parameter language model from Meta, fine tuned for chat completions. Llama 2 is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align to human preferences for helpfulness and safety.",
+                  "meta-llama/llama-3-70b-instruct": "Meta: Llama 3 70B Instruct\nContext Length: 8192\nMeta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3-8b-instruct": "Meta: Llama 3 8B Instruct\nContext Length: 8192\nMeta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.1-405b": "Meta: Llama 3.1 405B (base)\nContext Length: 32768\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This is the base 405B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.1-405b-instruct": "Meta: Llama 3.1 405B Instruct\nContext Length: 32768\nThe highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.1-405b:free": "Meta: Llama 3.1 405B (base) (free)\nContext Length: 64000\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This is the base 405B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.1-70b-instruct": "Meta: Llama 3.1 70B Instruct\nContext Length: 131072\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.1-8b-instruct": "Meta: Llama 3.1 8B Instruct\nContext Length: 16384\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.1-8b-instruct:free": "Meta: Llama 3.1 8B Instruct (free)\nContext Length: 131072\nMeta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-11b-vision-instruct": "Meta: Llama 3.2 11B Vision Instruct\nContext Length: 131072\nLlama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and visual question answering, bridging the gap between language generation and visual reasoning. Pre-trained on a massive dataset of image-text pairs, it performs well in complex, high-accuracy image analysis.\n\nIts ability to integrate visual understanding with language processing makes it an ideal solution for industries requiring comprehensive visual-linguistic AI applications, such as content creation, AI-driven customer service, and research.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-11b-vision-instruct:free": "Meta: Llama 3.2 11B Vision Instruct (free)\nContext Length: 131072\nLlama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and visual question answering, bridging the gap between language generation and visual reasoning. Pre-trained on a massive dataset of image-text pairs, it performs well in complex, high-accuracy image analysis.\n\nIts ability to integrate visual understanding with language processing makes it an ideal solution for industries requiring comprehensive visual-linguistic AI applications, such as content creation, AI-driven customer service, and research.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-1b-instruct": "Meta: Llama 3.2 1B Instruct\nContext Length: 131072\nLlama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.\n\nSupporting eight core languages and fine-tunable for more, Llama 1.3B is ideal for businesses or developers seeking lightweight yet powerful AI solutions that can operate in diverse multilingual settings without the high computational demand of larger models.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-1b-instruct:free": "Meta: Llama 3.2 1B Instruct (free)\nContext Length: 131000\nLlama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.\n\nSupporting eight core languages and fine-tunable for more, Llama 1.3B is ideal for businesses or developers seeking lightweight yet powerful AI solutions that can operate in diverse multilingual settings without the high computational demand of larger models.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-3b-instruct": "Meta: Llama 3.2 3B Instruct\nContext Length: 131072\nLlama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-3b-instruct:free": "Meta: Llama 3.2 3B Instruct (free)\nContext Length: 20000\nLlama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.\n\nTrained on 9 trillion tokens, the Llama 3.2 3B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.2-90b-vision-instruct": "Meta: Llama 3.2 90B Vision Instruct\nContext Length: 131072\nThe Llama 90B Vision model is a top-tier, 90-billion-parameter multimodal model designed for the most challenging visual reasoning and language tasks. It offers unparalleled accuracy in image captioning, visual question answering, and advanced image-text comprehension. Pre-trained on vast multimodal datasets and fine-tuned with human feedback, the Llama 90B Vision is engineered to handle the most demanding image-based AI tasks.\n\nThis model is perfect for industries requiring cutting-edge multimodal AI capabilities, particularly those dealing with complex, real-time visual and textual analysis.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).",
+                  "meta-llama/llama-3.3-70b-instruct": "Meta: Llama 3.3 70B Instruct\nContext Length: 128000\nThe Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
+                  "meta-llama/llama-3.3-70b-instruct:free": "Meta: Llama 3.3 70B Instruct (free)\nContext Length: 8000\nThe Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperforms many of the available open source and closed chat models on common industry benchmarks.\n\nSupported languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.\n\n[Model Card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)",
+                  "meta-llama/llama-4-maverick": "Meta: Llama 4 Maverick\nContext Length: 1048576\nLlama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
+                  "meta-llama/llama-4-maverick:free": "Meta: Llama 4 Maverick (free)\nContext Length: 256000\nLlama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward pass (400B total). It supports multilingual text and image input, and produces multilingual text and code output across 12 supported languages. Optimized for vision-language tasks, Maverick is instruction-tuned for assistant-like behavior, image reasoning, and general-purpose multimodal interaction.\n\nMaverick features early fusion for native multimodality and a 1 million token context window. It was trained on a curated mixture of public, licensed, and Meta-platform data, covering ~22 trillion tokens, with a knowledge cutoff in August 2024. Released on April 5, 2025 under the Llama 4 Community License, Maverick is suited for research and commercial applications requiring advanced multimodal understanding and high model throughput.",
+                  "meta-llama/llama-4-scout": "Meta: Llama 4 Scout\nContext Length: 1048576\nLlama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
+                  "meta-llama/llama-4-scout:free": "Meta: Llama 4 Scout (free)\nContext Length: 512000\nLlama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.",
+                  "meta-llama/llama-guard-2-8b": "Meta: LlamaGuard 2 8B\nContext Length: 8192\nThis safeguard model has 8B parameters and is based on the Llama 3 family. Just like is predecessor, [LlamaGuard 1](https://huggingface.co/meta-llama/LlamaGuard-7b), it can do both prompt and response classification.\n\nLlamaGuard 2 acts as a normal LLM would, generating text that indicates whether the given input/output is safe/unsafe. If deemed unsafe, it will also share the content categories violated.\n\nFor best results, please use raw prompt input or the `/completions` endpoint, instead of the chat API.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+                  "meta-llama/llama-guard-3-8b": "Llama Guard 3 8B\nContext Length: 131072\nLlama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM – it generates text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 3 was aligned to safeguard against the MLCommons standardized hazards taxonomy and designed to support Llama 3.1 capabilities. Specifically, it provides content moderation in 8 languages, and was optimized to support safety and security for search and code interpreter tool calls.\n",
+                  "meta-llama/llama-guard-4-12b": "Meta: Llama Guard 4 12B\nContext Length: 163840\nLlama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification) and in LLM responses (response classification). It acts as an LLM—generating text in its output that indicates whether a given prompt or response is safe or unsafe, and if unsafe, it also lists the content categories violated.\n\nLlama Guard 4 was aligned to safeguard against the standardized MLCommons hazards taxonomy and designed to support multimodal Llama 4 capabilities. Specifically, it combines features from previous Llama Guard models, providing content moderation for English and multiple supported languages, along with enhanced capabilities to handle mixed text-and-image prompts, including multiple images. Additionally, Llama Guard 4 is integrated into the Llama Moderations API, extending robust safety classification to text and images."
+                },
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "meta-llama/llama-4-maverick:free"
+              },
+              "provider": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Provider",
+                "dynamic": false,
+                "info": "The AI model provider",
+                "name": "provider",
+                "options": [
+                  "01-Ai",
+                  "Aetherwiing",
+                  "Agentica-Org",
+                  "Ai21",
+                  "Aion-Labs",
+                  "Alfredpros",
+                  "All-Hands",
+                  "Allenai",
+                  "Alpindale",
+                  "Amazon",
+                  "Anthracite-Org",
+                  "Anthropic",
+                  "Arliai",
+                  "Bytedance-Research",
+                  "Cognitivecomputations",
+                  "Cohere",
+                  "Deepseek",
+                  "Eleutherai",
+                  "Eva-Unit-01",
+                  "Featherless",
+                  "Google",
+                  "Gryphe",
+                  "Huggingfaceh4",
+                  "Inception",
+                  "Infermatic",
+                  "Inflection",
+                  "Jondurbin",
+                  "Latitudegames",
+                  "Liquid",
+                  "Mancer",
+                  "Meta-Llama",
+                  "Microsoft",
+                  "Minimax",
+                  "Mistral",
+                  "Mistralai",
+                  "Moonshotai",
+                  "Neversleep",
+                  "Nothingiisreal",
+                  "Nousresearch",
+                  "Nvidia",
+                  "Open-R1",
+                  "Openai",
+                  "Opengvlab",
+                  "Openrouter",
+                  "Perplexity",
+                  "Pygmalionai",
+                  "Qwen",
+                  "Raifle",
+                  "Rekaai",
+                  "Sao10K",
+                  "Scb10X",
+                  "Shisa-Ai",
+                  "Sophosympatheia",
+                  "Steelskull",
+                  "Thedrummer",
+                  "Thudm",
+                  "Tngtech",
+                  "Undi95",
+                  "X-Ai"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Meta-Llama"
+              },
+              "site_url": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Site URL",
+                "dynamic": false,
+                "info": "Your site URL for OpenRouter rankings",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "site_url",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": true,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness. Lower values are more deterministic, higher values are more creative.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0.7
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "OpenRouterComponent"
+        },
+        "dragging": false,
+        "id": "OpenRouterComponent-9LVwZ",
+        "measured": {
+          "height": 571,
+          "width": 320
+        },
+        "position": {
+          "x": 2101.25583493002,
+          "y": -774.5395994630813
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-y1JlZ",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "category": "outputs",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "key": "ChatOutput",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.00012027401062119145,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.inputs.inputs import HandleInput\nfrom langflow.io import DropdownInput, MessageTextInput, Output\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                if data.get_text() is None:\n                    msg = \"Empty Data object\"\n                    raise ValueError(msg)\n                return data.get_text()\n            if isinstance(data, DataFrame):\n                if self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n\n                # Replace pipe characters to avoid markdown table issues\n                processed_data = data.replace(r\"\\|\", r\"\\\\|\", regex=True)\n\n                processed_data = processed_data.map(\n                    lambda x: str(x).replace(\"\\n\", \"<br/>\") if isinstance(x, str) else x\n                )\n\n                return processed_data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([self._safe_convert(item) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return self._safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-y1JlZ",
+        "measured": {
+          "height": 66,
+          "width": 192
+        },
+        "position": {
+          "x": 2556.219142455402,
+          "y": -593.0890932484045
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt-1USrc",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": []
+            },
+            "description": "",
+            "display_name": "Prompt",
+            "documentation": "",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt Message",
+                "hidden": null,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.prompts.api_utils import process_prompt_template\nfrom langflow.custom import Component\nfrom langflow.inputs.inputs import DefaultPromptField\nfrom langflow.io import MessageTextInput, Output, PromptInput\nfrom langflow.schema.message import Message\nfrom langflow.template.utils import update_template_values\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt Message\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    async def build_prompt(self) -> Message:\n        prompt = Message.from_template(**self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        custom_fields = frontend_node[\"custom_fields\"]\n        frontend_node_template = frontend_node[\"template\"]\n        _ = process_prompt_template(\n            template=prompt_template,\n            name=\"template\",\n            custom_fields=custom_fields,\n            frontend_node_template=frontend_node_template,\n        )\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        # Kept it duplicated for backwards compatibility\n        _ = process_prompt_template(\n            template=template,\n            name=\"template\",\n            custom_fields=frontend_node[\"custom_fields\"],\n            frontend_node_template=frontend_node[\"template\"],\n        )\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "prompt",
+                "value": "You are an intelligent resume parser and evaluator. Given a candidate’s resume based on job description, extract only the necessary and relevant information. Remove all irrelevant details.\n\nReturn the result strictly in JSON format with the following fields:\n\nFull Name:\nPhone Number:\nEmail Address:\nLinkedIn Profile:\nGitHub Profile:\nRelevant Skills: (List here)\nProjects: (List here)\nCategory: Fresher | Experienced | Intern\nSummary: (Brief professional summary here)\nScore: \n\nEvaluation Criteria (Score out of 100):\n\nRelevant DevOps skills (CI/CD, Docker, Kubernetes, Jenkins, Git, AWS, Linux, etc.): 40 points\n\nProject or internship experience in DevOps or related areas: 25 points\n\nCertifications or trainings in DevOps tools or cloud platforms: 15 points\n\nCommunication (clarity, grammar, structure in summary): 10 points\n\nLinkedIn/GitHub or public contributions: 10 points\n\nOnly return the JSON object. Do not include any explanation or extra messages."
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt"
+        },
+        "dragging": false,
+        "id": "Prompt-1USrc",
+        "measured": {
+          "height": 278,
+          "width": 320
+        },
+        "position": {
+          "x": 908.973531916914,
+          "y": -428.2191675433492
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CombineText-1Zbw7",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "category": "processing",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "",
+            "display_name": "System Message",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "text1",
+              "text2",
+              "delimiter"
+            ],
+            "frozen": false,
+            "icon": "merge",
+            "key": "CombineText",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Combined Text",
+                "method": "combine_texts",
+                "name": "combined_text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.007568328950209746,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.io import MessageTextInput, Output\nfrom langflow.schema.message import Message\n\n\nclass CombineTextComponent(Component):\n    display_name = \"Combine Text\"\n    description = \"Concatenate two text sources into a single text chunk using a specified delimiter.\"\n    icon = \"merge\"\n    name = \"CombineText\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"text1\",\n            display_name=\"First Text\",\n            info=\"The first text input to concatenate.\",\n        ),\n        MessageTextInput(\n            name=\"text2\",\n            display_name=\"Second Text\",\n            info=\"The second text input to concatenate.\",\n        ),\n        MessageTextInput(\n            name=\"delimiter\",\n            display_name=\"Delimiter\",\n            info=\"A string used to separate the two text inputs. Defaults to a whitespace.\",\n            value=\" \",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Combined Text\", name=\"combined_text\", method=\"combine_texts\"),\n    ]\n\n    def combine_texts(self) -> Message:\n        combined = self.delimiter.join([self.text1, self.text2])\n        self.status = combined\n        return Message(text=combined)\n"
+              },
+              "delimiter": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Delimiter",
+                "dynamic": false,
+                "info": "A string used to separate the two text inputs. Defaults to a whitespace.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "delimiter",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": " "
+              },
+              "text1": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "First Text",
+                "dynamic": false,
+                "info": "The first text input to concatenate.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text1",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "text2": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Second Text",
+                "dynamic": false,
+                "info": "The second text input to concatenate.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text2",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "CombineText"
+        },
+        "dragging": false,
+        "id": "CombineText-1Zbw7",
+        "measured": {
+          "height": 363,
+          "width": 320
+        },
+        "position": {
+          "x": 1419.798121174319,
+          "y": -481.48195141533705
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "MessagetoData-5zRZR",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": true,
+            "category": "processing",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Convert a Message object to a Data object",
+            "display_name": "Message to Data",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "message"
+            ],
+            "frozen": false,
+            "icon": "message-square-share",
+            "key": "MessagetoData",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data",
+                "method": "convert_message_to_data",
+                "name": "data",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.008222426499470714,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from loguru import logger\n\nfrom langflow.custom import Component\nfrom langflow.io import MessageInput, Output\nfrom langflow.schema import Data\nfrom langflow.schema.message import Message\n\n\nclass MessageToDataComponent(Component):\n    display_name = \"Message to Data\"\n    description = \"Convert a Message object to a Data object\"\n    icon = \"message-square-share\"\n    beta = True\n    name = \"MessagetoData\"\n\n    inputs = [\n        MessageInput(\n            name=\"message\",\n            display_name=\"Message\",\n            info=\"The Message object to convert to a Data object\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Data\", name=\"data\", method=\"convert_message_to_data\"),\n    ]\n\n    def convert_message_to_data(self) -> Data:\n        if isinstance(self.message, Message):\n            # Convert Message to Data\n            return Data(data=self.message.data)\n\n        msg = \"Error converting Message to Data: Input must be a Message object\"\n        logger.opt(exception=True).debug(msg)\n        self.status = msg\n        return Data(data={\"error\": msg})\n"
+              },
+              "message": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Message",
+                "dynamic": false,
+                "info": "The Message object to convert to a Data object",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "MessagetoData"
+        },
+        "dragging": false,
+        "id": "MessagetoData-5zRZR",
+        "measured": {
+          "height": 229,
+          "width": 320
+        },
+        "position": {
+          "x": 2858.0347117138163,
+          "y": -697.5515074621815
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "AstraDB-aQM8K",
+          "node": {
+            "base_classes": [
+              "Data",
+              "DataFrame",
+              "VectorStore"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Ingest and search documents in Astra DB",
+            "display_name": "Astra DB",
+            "documentation": "https://docs.datastax.com/en/langflow/astra-components.html",
+            "edited": false,
+            "field_order": [
+              "token",
+              "environment",
+              "database_name",
+              "api_endpoint",
+              "collection_name",
+              "keyspace",
+              "embedding_choice",
+              "embedding_model",
+              "ingest_data",
+              "search_query",
+              "should_cache_vector_store",
+              "number_of_results",
+              "search_type",
+              "search_score_threshold",
+              "advanced_search_filter",
+              "autodetect_collection",
+              "content_field",
+              "deletion_field",
+              "ignore_invalid_documents",
+              "astradb_vectorstore_kwargs"
+            ],
+            "frozen": false,
+            "icon": "AstraDB",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Search Results",
+                "hidden": null,
+                "method": "search_documents",
+                "name": "search_results",
+                "options": null,
+                "required_inputs": [
+                  "collection_name",
+                  "database_name",
+                  "token"
+                ],
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "hidden": null,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": [],
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Vector Store Connection",
+                "hidden": true,
+                "method": "as_vector_store",
+                "name": "vectorstoreconnection",
+                "options": null,
+                "required_inputs": null,
+                "selected": "VectorStore",
+                "tool_mode": true,
+                "types": [
+                  "VectorStore"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "advanced_search_filter": {
+                "_input_type": "NestedDictInput",
+                "advanced": true,
+                "display_name": "Search Metadata Filter",
+                "dynamic": false,
+                "info": "Optional dictionary of filters to apply to the search query.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "advanced_search_filter",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "NestedDict",
+                "value": {}
+              },
+              "api_endpoint": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Astra DB API Endpoint",
+                "dynamic": false,
+                "info": "The API Endpoint for the Astra DB instance. Supercedes database selection.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "api_endpoint",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "https://5e074ff1-a1f4-4168-9ed8-2115e41b515d-us-east-2.apps.astra.datastax.com"
+              },
+              "astradb_vectorstore_kwargs": {
+                "_input_type": "NestedDictInput",
+                "advanced": true,
+                "display_name": "AstraDBVectorStore Parameters",
+                "dynamic": false,
+                "info": "Optional dictionary of additional parameters for the AstraDBVectorStore.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "astradb_vectorstore_kwargs",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "NestedDict",
+                "value": {}
+              },
+              "autodetect_collection": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Autodetect Collection",
+                "dynamic": false,
+                "info": "Boolean flag to determine whether to autodetect the collection.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "autodetect_collection",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import re\nfrom collections import defaultdict\nfrom dataclasses import asdict, dataclass, field\n\nfrom astrapy import AstraDBAdmin, DataAPIClient, Database\nfrom astrapy.info import CollectionDescriptor\nfrom langchain_astradb import AstraDBVectorStore, CollectionVectorServiceOptions\n\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.base.vectorstores.vector_store_connection_decorator import vector_store_connection\nfrom langflow.helpers import docs_to_data\nfrom langflow.inputs import FloatInput, NestedDictInput\nfrom langflow.io import (\n    BoolInput,\n    DropdownInput,\n    HandleInput,\n    IntInput,\n    SecretStrInput,\n    StrInput,\n)\nfrom langflow.schema import Data\nfrom langflow.utils.version import get_version_info\n\n\n@vector_store_connection\nclass AstraDBVectorStoreComponent(LCVectorStoreComponent):\n    display_name: str = \"Astra DB\"\n    description: str = \"Ingest and search documents in Astra DB\"\n    documentation: str = \"https://docs.datastax.com/en/langflow/astra-components.html\"\n    name = \"AstraDB\"\n    icon: str = \"AstraDB\"\n\n    _cached_vector_store: AstraDBVectorStore | None = None\n\n    @dataclass\n    class NewDatabaseInput:\n        functionality: str = \"create\"\n        fields: dict[str, dict] = field(\n            default_factory=lambda: {\n                \"data\": {\n                    \"node\": {\n                        \"name\": \"create_database\",\n                        \"description\": \"Please allow several minutes for creation to complete.\",\n                        \"display_name\": \"Create new database\",\n                        \"field_order\": [\"01_new_database_name\", \"02_cloud_provider\", \"03_region\"],\n                        \"template\": {\n                            \"01_new_database_name\": StrInput(\n                                name=\"new_database_name\",\n                                display_name=\"Name\",\n                                info=\"Name of the new database to create in Astra DB.\",\n                                required=True,\n                            ),\n                            \"02_cloud_provider\": DropdownInput(\n                                name=\"cloud_provider\",\n                                display_name=\"Cloud provider\",\n                                info=\"Cloud provider for the new database.\",\n                                options=[],\n                                required=True,\n                                real_time_refresh=True,\n                            ),\n                            \"03_region\": DropdownInput(\n                                name=\"region\",\n                                display_name=\"Region\",\n                                info=\"Region for the new database.\",\n                                options=[],\n                                required=True,\n                            ),\n                        },\n                    },\n                }\n            }\n        )\n\n    @dataclass\n    class NewCollectionInput:\n        functionality: str = \"create\"\n        fields: dict[str, dict] = field(\n            default_factory=lambda: {\n                \"data\": {\n                    \"node\": {\n                        \"name\": \"create_collection\",\n                        \"description\": \"Please allow several seconds for creation to complete.\",\n                        \"display_name\": \"Create new collection\",\n                        \"field_order\": [\n                            \"01_new_collection_name\",\n                            \"02_embedding_generation_provider\",\n                            \"03_embedding_generation_model\",\n                            \"04_dimension\",\n                        ],\n                        \"template\": {\n                            \"01_new_collection_name\": StrInput(\n                                name=\"new_collection_name\",\n                                display_name=\"Name\",\n                                info=\"Name of the new collection to create in Astra DB.\",\n                                required=True,\n                            ),\n                            \"02_embedding_generation_provider\": DropdownInput(\n                                name=\"embedding_generation_provider\",\n                                display_name=\"Embedding generation method\",\n                                info=\"Provider to use for generating embeddings.\",\n                                helper_text=(\n                                    \"To create collections with more embedding provider options, go to \"\n                                    '<a class=\"underline\" href=\"https://astra.datastax.com/\" target=\" _blank\" '\n                                    'rel=\"noopener noreferrer\">your database in Astra DB</a>'\n                                ),\n                                real_time_refresh=True,\n                                required=True,\n                                options=[],\n                            ),\n                            \"03_embedding_generation_model\": DropdownInput(\n                                name=\"embedding_generation_model\",\n                                display_name=\"Embedding model\",\n                                info=\"Model to use for generating embeddings.\",\n                                real_time_refresh=True,\n                                options=[],\n                            ),\n                            \"04_dimension\": IntInput(\n                                name=\"dimension\",\n                                display_name=\"Dimensions\",\n                                info=\"Dimensions of the embeddings to generate.\",\n                                value=None,\n                            ),\n                        },\n                    },\n                }\n            }\n        )\n\n    inputs = [\n        SecretStrInput(\n            name=\"token\",\n            display_name=\"Astra DB Application Token\",\n            info=\"Authentication token for accessing Astra DB.\",\n            value=\"ASTRA_DB_APPLICATION_TOKEN\",\n            required=True,\n            real_time_refresh=True,\n            input_types=[],\n        ),\n        StrInput(\n            name=\"environment\",\n            display_name=\"Environment\",\n            info=\"The environment for the Astra DB API Endpoint.\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        DropdownInput(\n            name=\"database_name\",\n            display_name=\"Database\",\n            info=\"The Database name for the Astra DB instance.\",\n            required=True,\n            refresh_button=True,\n            real_time_refresh=True,\n            dialog_inputs=asdict(NewDatabaseInput()),\n            combobox=True,\n        ),\n        StrInput(\n            name=\"api_endpoint\",\n            display_name=\"Astra DB API Endpoint\",\n            info=\"The API Endpoint for the Astra DB instance. Supercedes database selection.\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"collection_name\",\n            display_name=\"Collection\",\n            info=\"The name of the collection within Astra DB where the vectors will be stored.\",\n            required=True,\n            refresh_button=True,\n            real_time_refresh=True,\n            dialog_inputs=asdict(NewCollectionInput()),\n            combobox=True,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"keyspace\",\n            display_name=\"Keyspace\",\n            info=\"Optional keyspace within Astra DB to use for the collection.\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"embedding_choice\",\n            display_name=\"Embedding Model or Astra Vectorize\",\n            info=\"Choose an embedding model or use Astra Vectorize.\",\n            options=[\"Embedding Model\", \"Astra Vectorize\"],\n            value=\"Embedding Model\",\n            advanced=True,\n            real_time_refresh=True,\n        ),\n        HandleInput(\n            name=\"embedding_model\",\n            display_name=\"Embedding Model\",\n            input_types=[\"Embeddings\"],\n            info=\"Specify the Embedding Model. Not required for Astra Vectorize collections.\",\n            required=False,\n        ),\n        *LCVectorStoreComponent.inputs,\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Search Results\",\n            info=\"Number of search results to return.\",\n            advanced=True,\n            value=4,\n        ),\n        DropdownInput(\n            name=\"search_type\",\n            display_name=\"Search Type\",\n            info=\"Search type to use\",\n            options=[\"Similarity\", \"Similarity with score threshold\", \"MMR (Max Marginal Relevance)\"],\n            value=\"Similarity\",\n            advanced=True,\n        ),\n        FloatInput(\n            name=\"search_score_threshold\",\n            display_name=\"Search Score Threshold\",\n            info=\"Minimum similarity score threshold for search results. \"\n            \"(when using 'Similarity with score threshold')\",\n            value=0,\n            advanced=True,\n        ),\n        NestedDictInput(\n            name=\"advanced_search_filter\",\n            display_name=\"Search Metadata Filter\",\n            info=\"Optional dictionary of filters to apply to the search query.\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"autodetect_collection\",\n            display_name=\"Autodetect Collection\",\n            info=\"Boolean flag to determine whether to autodetect the collection.\",\n            advanced=True,\n            value=True,\n        ),\n        StrInput(\n            name=\"content_field\",\n            display_name=\"Content Field\",\n            info=\"Field to use as the text content field for the vector store.\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"deletion_field\",\n            display_name=\"Deletion Based On Field\",\n            info=\"When this parameter is provided, documents in the target collection with \"\n            \"metadata field values matching the input metadata field value will be deleted \"\n            \"before new data is loaded.\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"ignore_invalid_documents\",\n            display_name=\"Ignore Invalid Documents\",\n            info=\"Boolean flag to determine whether to ignore invalid documents at runtime.\",\n            advanced=True,\n        ),\n        NestedDictInput(\n            name=\"astradb_vectorstore_kwargs\",\n            display_name=\"AstraDBVectorStore Parameters\",\n            info=\"Optional dictionary of additional parameters for the AstraDBVectorStore.\",\n            advanced=True,\n        ),\n    ]\n\n    @classmethod\n    def map_cloud_providers(cls):\n        # TODO: Programmatically fetch the regions for each cloud provider\n        return {\n            \"dev\": {\n                \"Google Cloud Platform\": {\n                    \"id\": \"gcp\",\n                    \"regions\": [\"us-central1\"],\n                },\n            },\n            # TODO: Check test regions\n            \"test\": {\n                \"Google Cloud Platform\": {\n                    \"id\": \"gcp\",\n                    \"regions\": [\"us-central1\"],\n                },\n            },\n            \"prod\": {\n                \"Amazon Web Services\": {\n                    \"id\": \"aws\",\n                    \"regions\": [\"us-east-2\", \"ap-south-1\", \"eu-west-1\"],\n                },\n                \"Google Cloud Platform\": {\n                    \"id\": \"gcp\",\n                    \"regions\": [\"us-east1\"],\n                },\n                \"Microsoft Azure\": {\n                    \"id\": \"azure\",\n                    \"regions\": [\"westus3\"],\n                },\n            },\n        }\n\n    @classmethod\n    def get_vectorize_providers(cls, token: str, environment: str | None = None, api_endpoint: str | None = None):\n        try:\n            # Get the admin object\n            admin = AstraDBAdmin(token=token, environment=environment)\n            db_admin = admin.get_database_admin(api_endpoint=api_endpoint)\n\n            # Get the list of embedding providers\n            embedding_providers = db_admin.find_embedding_providers().as_dict()\n\n            vectorize_providers_mapping = {}\n            # Map the provider display name to the provider key and models\n            for provider_key, provider_data in embedding_providers[\"embeddingProviders\"].items():\n                # Get the provider display name and models\n                display_name = provider_data[\"displayName\"]\n                models = [model[\"name\"] for model in provider_data[\"models\"]]\n\n                # Build our mapping\n                vectorize_providers_mapping[display_name] = [provider_key, models]\n\n            # Sort the resulting dictionary\n            return defaultdict(list, dict(sorted(vectorize_providers_mapping.items())))\n        except Exception as _:  # noqa: BLE001\n            return {}\n\n    @classmethod\n    async def create_database_api(\n        cls,\n        new_database_name: str,\n        cloud_provider: str,\n        region: str,\n        token: str,\n        environment: str | None = None,\n        keyspace: str | None = None,\n    ):\n        client = DataAPIClient(token=token, environment=environment)\n\n        # Get the admin object\n        admin_client = client.get_admin(token=token)\n\n        # Get the environment, set to prod if null like\n        my_env = environment or \"prod\"\n\n        # Raise a value error if name isn't provided\n        if not new_database_name:\n            msg = \"Database name is required to create a new database.\"\n            raise ValueError(msg)\n\n        # Call the create database function\n        return await admin_client.async_create_database(\n            name=new_database_name,\n            cloud_provider=cls.map_cloud_providers()[my_env][cloud_provider][\"id\"],\n            region=region,\n            keyspace=keyspace,\n            wait_until_active=False,\n        )\n\n    @classmethod\n    async def create_collection_api(\n        cls,\n        new_collection_name: str,\n        token: str,\n        api_endpoint: str,\n        environment: str | None = None,\n        keyspace: str | None = None,\n        dimension: int | None = None,\n        embedding_generation_provider: str | None = None,\n        embedding_generation_model: str | None = None,\n    ):\n        # Create the data API client\n        client = DataAPIClient(token=token, environment=environment)\n\n        # Get the database object\n        database = client.get_async_database(api_endpoint=api_endpoint, token=token)\n\n        # Build vectorize options, if needed\n        vectorize_options = None\n        if not dimension:\n            vectorize_options = CollectionVectorServiceOptions(\n                provider=cls.get_vectorize_providers(\n                    token=token, environment=environment, api_endpoint=api_endpoint\n                ).get(embedding_generation_provider, [None, []])[0],\n                model_name=embedding_generation_model,\n            )\n\n        # Raise a value error if name isn't provided\n        if not new_collection_name:\n            msg = \"Collection name is required to create a new collection.\"\n            raise ValueError(msg)\n\n        # Create the collection\n        return await database.create_collection(\n            name=new_collection_name,\n            keyspace=keyspace,\n            dimension=dimension,\n            service=vectorize_options,\n        )\n\n    @classmethod\n    def get_database_list_static(cls, token: str, environment: str | None = None):\n        client = DataAPIClient(token=token, environment=environment)\n\n        # Get the admin object\n        admin_client = client.get_admin(token=token)\n\n        # Get the list of databases\n        db_list = list(admin_client.list_databases())\n\n        # Set the environment properly\n        env_string = \"\"\n        if environment and environment != \"prod\":\n            env_string = f\"-{environment}\"\n\n        # Generate the api endpoint for each database\n        db_info_dict = {}\n        for db in db_list:\n            try:\n                # Get the API endpoint for the database\n                api_endpoint = f\"https://{db.info.id}-{db.info.region}.apps.astra{env_string}.datastax.com\"\n\n                # Get the number of collections\n                try:\n                    num_collections = len(\n                        list(\n                            client.get_database(\n                                api_endpoint=api_endpoint, token=token, keyspace=db.info.keyspace\n                            ).list_collection_names(keyspace=db.info.keyspace)\n                        )\n                    )\n                except Exception:  # noqa: BLE001\n                    if db.status != \"PENDING\":\n                        continue\n                    num_collections = 0\n\n                # Add the database to the dictionary\n                db_info_dict[db.info.name] = {\n                    \"api_endpoint\": api_endpoint,\n                    \"collections\": num_collections,\n                    \"status\": db.status if db.status != \"ACTIVE\" else None,\n                    \"org_id\": db.org_id if db.org_id else None,\n                }\n            except Exception:  # noqa: BLE001, S110\n                pass\n\n        return db_info_dict\n\n    def get_database_list(self):\n        return self.get_database_list_static(token=self.token, environment=self.environment)\n\n    @classmethod\n    def get_api_endpoint_static(\n        cls,\n        token: str,\n        environment: str | None = None,\n        api_endpoint: str | None = None,\n        database_name: str | None = None,\n    ):\n        # If the api_endpoint is set, return it\n        if api_endpoint:\n            return api_endpoint\n\n        # Check if the database_name is like a url\n        if database_name and database_name.startswith(\"https://\"):\n            return database_name\n\n        # If the database is not set, nothing we can do.\n        if not database_name:\n            return None\n\n        # Grab the database object\n        db = cls.get_database_list_static(token=token, environment=environment).get(database_name)\n        if not db:\n            return None\n\n        # Otherwise, get the URL from the database list\n        return db.get(\"api_endpoint\")\n\n    def get_api_endpoint(self):\n        return self.get_api_endpoint_static(\n            token=self.token,\n            environment=self.environment,\n            api_endpoint=self.api_endpoint,\n            database_name=self.database_name,\n        )\n\n    @classmethod\n    def get_database_id_static(cls, api_endpoint: str) -> str | None:\n        # Pattern matches standard UUID format: 8-4-4-4-12 hexadecimal characters\n        uuid_pattern = r\"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\"\n        match = re.search(uuid_pattern, api_endpoint)\n\n        return match.group(0) if match else None\n\n    def get_database_id(self):\n        return self.get_database_id_static(api_endpoint=self.get_api_endpoint())\n\n    def get_keyspace(self):\n        keyspace = self.keyspace\n\n        if keyspace:\n            return keyspace.strip()\n\n        return None\n\n    def get_database_object(self, api_endpoint: str | None = None):\n        try:\n            client = DataAPIClient(token=self.token, environment=self.environment)\n\n            return client.get_database(\n                api_endpoint=api_endpoint or self.get_api_endpoint(),\n                token=self.token,\n                keyspace=self.get_keyspace(),\n            )\n        except Exception as e:\n            msg = f\"Error fetching database object: {e}\"\n            raise ValueError(msg) from e\n\n    def collection_data(self, collection_name: str, database: Database | None = None):\n        try:\n            if not database:\n                client = DataAPIClient(token=self.token, environment=self.environment)\n\n                database = client.get_database(\n                    api_endpoint=self.get_api_endpoint(),\n                    token=self.token,\n                    keyspace=self.get_keyspace(),\n                )\n\n            collection = database.get_collection(collection_name, keyspace=self.get_keyspace())\n\n            return collection.estimated_document_count()\n        except Exception as e:  # noqa: BLE001\n            self.log(f\"Error checking collection data: {e}\")\n\n            return None\n\n    def _initialize_database_options(self):\n        try:\n            return [\n                {\n                    \"name\": name,\n                    \"status\": info[\"status\"],\n                    \"collections\": info[\"collections\"],\n                    \"api_endpoint\": info[\"api_endpoint\"],\n                    \"org_id\": info[\"org_id\"],\n                }\n                for name, info in self.get_database_list().items()\n            ]\n        except Exception as e:\n            msg = f\"Error fetching database options: {e}\"\n            raise ValueError(msg) from e\n\n    @classmethod\n    def get_provider_icon(cls, collection: CollectionDescriptor | None = None, provider_name: str | None = None) -> str:\n        # Get the provider name from the collection\n        provider_name = provider_name or (\n            collection.options.vector.service.provider\n            if collection and collection.options and collection.options.vector and collection.options.vector.service\n            else None\n        )\n\n        # If there is no provider, use the vector store icon\n        if not provider_name or provider_name == \"Bring your own\":\n            return \"vectorstores\"\n\n        # Map provider casings\n        case_map = {\n            \"nvidia\": \"NVIDIA\",\n            \"openai\": \"OpenAI\",\n            \"amazon bedrock\": \"AmazonBedrockEmbeddings\",\n            \"azure openai\": \"AzureOpenAiEmbeddings\",\n            \"cohere\": \"Cohere\",\n            \"jina ai\": \"JinaAI\",\n            \"mistral ai\": \"MistralAI\",\n            \"upstage\": \"Upstage\",\n            \"voyage ai\": \"VoyageAI\",\n        }\n\n        # Adjust the casing on some like nvidia\n        return case_map[provider_name.lower()] if provider_name.lower() in case_map else provider_name.title()\n\n    def _initialize_collection_options(self, api_endpoint: str | None = None):\n        # Nothing to generate if we don't have an API endpoint yet\n        api_endpoint = api_endpoint or self.get_api_endpoint()\n        if not api_endpoint:\n            return []\n\n        # Retrieve the database object\n        database = self.get_database_object(api_endpoint=api_endpoint)\n\n        # Get the list of collections\n        collection_list = list(database.list_collections(keyspace=self.get_keyspace()))\n\n        # Return the list of collections and metadata associated\n        return [\n            {\n                \"name\": col.name,\n                \"records\": self.collection_data(collection_name=col.name, database=database),\n                \"provider\": (\n                    col.options.vector.service.provider if col.options.vector and col.options.vector.service else None\n                ),\n                \"icon\": self.get_provider_icon(collection=col),\n                \"model\": (\n                    col.options.vector.service.model_name if col.options.vector and col.options.vector.service else None\n                ),\n            }\n            for col in collection_list\n        ]\n\n    def reset_provider_options(self, build_config: dict) -> dict:\n        \"\"\"Reset provider options and related configurations in the build_config dictionary.\"\"\"\n        # Extract template path for cleaner access\n        template = build_config[\"collection_name\"][\"dialog_inputs\"][\"fields\"][\"data\"][\"node\"][\"template\"]\n\n        # Get vectorize providers\n        vectorize_providers_api = self.get_vectorize_providers(\n            token=self.token,\n            environment=self.environment,\n            api_endpoint=build_config[\"api_endpoint\"][\"value\"],\n        )\n\n        # Create a new dictionary with \"Bring your own\" first\n        vectorize_providers: dict[str, list[list[str]]] = {\"Bring your own\": [[], []]}\n\n        # Add the remaining items (only Nvidia) from the original dictionary\n        vectorize_providers.update(\n            {\n                k: v\n                for k, v in vectorize_providers_api.items()\n                if k.lower() in [\"nvidia\"]  # TODO: Eventually support more\n            }\n        )\n\n        # Set provider options\n        provider_field = \"02_embedding_generation_provider\"\n        template[provider_field][\"options\"] = list(vectorize_providers.keys())\n\n        # Add metadata for each provider option\n        template[provider_field][\"options_metadata\"] = [\n            {\"icon\": self.get_provider_icon(provider_name=provider)} for provider in template[provider_field][\"options\"]\n        ]\n\n        # Get selected embedding provider\n        embedding_provider = template[provider_field][\"value\"]\n        is_bring_your_own = embedding_provider and embedding_provider == \"Bring your own\"\n\n        # Configure embedding model field\n        model_field = \"03_embedding_generation_model\"\n        template[model_field].update(\n            {\n                \"options\": vectorize_providers.get(embedding_provider, [[], []])[1],\n                \"placeholder\": \"Bring your own\" if is_bring_your_own else None,\n                \"readonly\": is_bring_your_own,\n                \"required\": not is_bring_your_own,\n                \"value\": None,\n            }\n        )\n\n        # If this is a bring your own, set dimensions to 0\n        return self.reset_dimension_field(build_config)\n\n    def reset_dimension_field(self, build_config: dict) -> dict:\n        \"\"\"Reset dimension field options based on provided configuration.\"\"\"\n        # Extract template path for cleaner access\n        template = build_config[\"collection_name\"][\"dialog_inputs\"][\"fields\"][\"data\"][\"node\"][\"template\"]\n\n        # Get selected embedding model\n        provider_field = \"02_embedding_generation_provider\"\n        embedding_provider = template[provider_field][\"value\"]\n        is_bring_your_own = embedding_provider and embedding_provider == \"Bring your own\"\n\n        # Configure dimension field\n        dimension_field = \"04_dimension\"\n        dimension_value = 1024 if not is_bring_your_own else None  # TODO: Dynamically figure this out\n        template[dimension_field].update(\n            {\n                \"placeholder\": dimension_value,\n                \"value\": dimension_value,\n                \"readonly\": not is_bring_your_own,\n                \"required\": is_bring_your_own,\n            }\n        )\n\n        return build_config\n\n    def reset_collection_list(self, build_config: dict) -> dict:\n        \"\"\"Reset collection list options based on provided configuration.\"\"\"\n        # Get collection options\n        collection_options = self._initialize_collection_options(api_endpoint=build_config[\"api_endpoint\"][\"value\"])\n\n        # Update collection configuration\n        collection_config = build_config[\"collection_name\"]\n        collection_config.update(\n            {\n                \"options\": [col[\"name\"] for col in collection_options],\n                \"options_metadata\": [{k: v for k, v in col.items() if k != \"name\"} for col in collection_options],\n            }\n        )\n\n        # Reset selected collection if not in options\n        if collection_config[\"value\"] not in collection_config[\"options\"]:\n            collection_config[\"value\"] = \"\"\n\n        # Set advanced status based on database selection\n        collection_config[\"advanced\"] = not build_config[\"database_name\"][\"value\"]\n\n        return build_config\n\n    def reset_database_list(self, build_config: dict) -> dict:\n        \"\"\"Reset database list options and related configurations.\"\"\"\n        # Get database options\n        database_options = self._initialize_database_options()\n\n        # Update cloud provider options\n        env = self.environment or \"prod\"\n        template = build_config[\"database_name\"][\"dialog_inputs\"][\"fields\"][\"data\"][\"node\"][\"template\"]\n        template[\"02_cloud_provider\"][\"options\"] = list(self.map_cloud_providers()[env].keys())\n\n        # Update database configuration\n        database_config = build_config[\"database_name\"]\n        database_config.update(\n            {\n                \"options\": [db[\"name\"] for db in database_options],\n                \"options_metadata\": [{k: v for k, v in db.items() if k != \"name\"} for db in database_options],\n            }\n        )\n\n        # Reset selections if value not in options\n        if database_config[\"value\"] not in database_config[\"options\"]:\n            database_config[\"value\"] = \"\"\n            build_config[\"api_endpoint\"][\"value\"] = \"\"\n            build_config[\"collection_name\"][\"advanced\"] = True\n\n        # Set advanced status based on token presence\n        database_config[\"advanced\"] = not build_config[\"token\"][\"value\"]\n\n        return build_config\n\n    def reset_build_config(self, build_config: dict) -> dict:\n        \"\"\"Reset all build configuration options to default empty state.\"\"\"\n        # Reset database configuration\n        database_config = build_config[\"database_name\"]\n        database_config.update({\"options\": [], \"options_metadata\": [], \"value\": \"\", \"advanced\": True})\n        build_config[\"api_endpoint\"][\"value\"] = \"\"\n\n        # Reset collection configuration\n        collection_config = build_config[\"collection_name\"]\n        collection_config.update({\"options\": [], \"options_metadata\": [], \"value\": \"\", \"advanced\": True})\n\n        return build_config\n\n    async def update_build_config(self, build_config: dict, field_value: str, field_name: str | None = None) -> dict:\n        \"\"\"Update build configuration based on field name and value.\"\"\"\n        # Early return if no token provided\n        if not self.token:\n            return self.reset_build_config(build_config)\n\n        # Database creation callback\n        if field_name == \"database_name\" and isinstance(field_value, dict):\n            if \"01_new_database_name\" in field_value:\n                await self._create_new_database(build_config, field_value)\n                return self.reset_collection_list(build_config)\n            return self._update_cloud_regions(build_config, field_value)\n\n        # Collection creation callback\n        if field_name == \"collection_name\" and isinstance(field_value, dict):\n            # Case 1: New collection creation\n            if \"01_new_collection_name\" in field_value:\n                await self._create_new_collection(build_config, field_value)\n                return build_config\n\n            # Case 2: Update embedding provider options\n            if \"02_embedding_generation_provider\" in field_value:\n                return self.reset_provider_options(build_config)\n\n            # Case 3: Update dimension field\n            if \"03_embedding_generation_model\" in field_value:\n                return self.reset_dimension_field(build_config)\n\n        # Initial execution or token/environment change\n        first_run = field_name == \"collection_name\" and not field_value and not build_config[\"database_name\"][\"options\"]\n        if first_run or field_name in {\"token\", \"environment\"}:\n            return self.reset_database_list(build_config)\n\n        # Database selection change\n        if field_name == \"database_name\" and not isinstance(field_value, dict):\n            return self._handle_database_selection(build_config, field_value)\n\n        # Collection selection change\n        if field_name == \"collection_name\" and not isinstance(field_value, dict):\n            return self._handle_collection_selection(build_config, field_value)\n\n        return build_config\n\n    async def _create_new_database(self, build_config: dict, field_value: dict) -> None:\n        \"\"\"Create a new database and update build config options.\"\"\"\n        try:\n            await self.create_database_api(\n                new_database_name=field_value[\"01_new_database_name\"],\n                token=self.token,\n                keyspace=self.get_keyspace(),\n                environment=self.environment,\n                cloud_provider=field_value[\"02_cloud_provider\"],\n                region=field_value[\"03_region\"],\n            )\n        except Exception as e:\n            msg = f\"Error creating database: {e}\"\n            raise ValueError(msg) from e\n\n        build_config[\"database_name\"][\"options\"].append(field_value[\"01_new_database_name\"])\n        build_config[\"database_name\"][\"options_metadata\"].append(\n            {\n                \"status\": \"PENDING\",\n                \"collections\": 0,\n                \"api_endpoint\": None,\n                \"org_id\": None,\n            }\n        )\n\n    def _update_cloud_regions(self, build_config: dict, field_value: dict) -> dict:\n        \"\"\"Update cloud provider regions in build config.\"\"\"\n        env = self.environment or \"prod\"\n        cloud_provider = field_value[\"02_cloud_provider\"]\n\n        # Update the region options based on the selected cloud provider\n        template = build_config[\"database_name\"][\"dialog_inputs\"][\"fields\"][\"data\"][\"node\"][\"template\"]\n        template[\"03_region\"][\"options\"] = self.map_cloud_providers()[env][cloud_provider][\"regions\"]\n\n        # Reset the the 03_region value if it's not in the new options\n        if template[\"03_region\"][\"value\"] not in template[\"03_region\"][\"options\"]:\n            template[\"03_region\"][\"value\"] = None\n\n        return build_config\n\n    async def _create_new_collection(self, build_config: dict, field_value: dict) -> None:\n        \"\"\"Create a new collection and update build config options.\"\"\"\n        embedding_provider = field_value.get(\"02_embedding_generation_provider\")\n        try:\n            await self.create_collection_api(\n                new_collection_name=field_value[\"01_new_collection_name\"],\n                token=self.token,\n                api_endpoint=build_config[\"api_endpoint\"][\"value\"],\n                environment=self.environment,\n                keyspace=self.get_keyspace(),\n                dimension=field_value.get(\"04_dimension\") if embedding_provider == \"Bring your own\" else None,\n                embedding_generation_provider=embedding_provider,\n                embedding_generation_model=field_value.get(\"03_embedding_generation_model\"),\n            )\n        except Exception as e:\n            msg = f\"Error creating collection: {e}\"\n            raise ValueError(msg) from e\n\n        provider = embedding_provider.lower() if embedding_provider and embedding_provider != \"Bring your own\" else None\n        build_config[\"collection_name\"].update(\n            {\n                \"value\": field_value[\"01_new_collection_name\"],\n                \"options\": build_config[\"collection_name\"][\"options\"] + [field_value[\"01_new_collection_name\"]],\n            }\n        )\n        build_config[\"embedding_choice\"][\"value\"] = \"Astra Vectorize\" if provider else \"Embedding Model\"\n        build_config[\"embedding_model\"][\"advanced\"] = bool(provider)\n        build_config[\"collection_name\"][\"options_metadata\"].append(\n            {\n                \"records\": 0,\n                \"provider\": provider,\n                \"icon\": self.get_provider_icon(provider_name=embedding_provider),\n                \"model\": field_value.get(\"03_embedding_generation_model\"),\n            }\n        )\n\n    def _handle_database_selection(self, build_config: dict, field_value: str) -> dict:\n        \"\"\"Handle database selection and update related configurations.\"\"\"\n        build_config = self.reset_database_list(build_config)\n\n        # Reset collection list if database selection changes\n        if field_value not in build_config[\"database_name\"][\"options\"]:\n            build_config[\"database_name\"][\"value\"] = \"\"\n            return build_config\n\n        # Get the api endpoint for the selected database\n        index = build_config[\"database_name\"][\"options\"].index(field_value)\n        build_config[\"api_endpoint\"][\"value\"] = build_config[\"database_name\"][\"options_metadata\"][index][\"api_endpoint\"]\n\n        # Get the org_id for the selected database\n        org_id = build_config[\"database_name\"][\"options_metadata\"][index][\"org_id\"]\n        if not org_id:\n            return build_config\n\n        # Get the database id for the selected database\n        db_id = self.get_database_id_static(api_endpoint=build_config[\"api_endpoint\"][\"value\"])\n        keyspace = self.get_keyspace() or \"default_keyspace\"\n\n        # Update the helper text for the embedding provider field\n        template = build_config[\"collection_name\"][\"dialog_inputs\"][\"fields\"][\"data\"][\"node\"][\"template\"]\n        template[\"02_embedding_generation_provider\"][\"helper_text\"] = (\n            \"To create collections with more embedding provider options, go to \"\n            f'<a class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\" '\n            f'href=\"https://astra.datastax.com/org/{org_id}/database/{db_id}/data-explorer?createCollection=1&namespace={keyspace}\">'\n            \"your database in Astra DB</a>.\"\n        )\n\n        # Reset provider options\n        build_config = self.reset_provider_options(build_config)\n\n        return self.reset_collection_list(build_config)\n\n    def _handle_collection_selection(self, build_config: dict, field_value: str) -> dict:\n        \"\"\"Handle collection selection and update embedding options.\"\"\"\n        build_config[\"autodetect_collection\"][\"value\"] = True\n        build_config = self.reset_collection_list(build_config)\n\n        if field_value and field_value not in build_config[\"collection_name\"][\"options\"]:\n            build_config[\"collection_name\"][\"options\"].append(field_value)\n            build_config[\"collection_name\"][\"options_metadata\"].append(\n                {\n                    \"records\": 0,\n                    \"provider\": None,\n                    \"icon\": \"vectorstores\",\n                    \"model\": None,\n                }\n            )\n            build_config[\"autodetect_collection\"][\"value\"] = False\n\n        if not field_value:\n            return build_config\n\n        index = build_config[\"collection_name\"][\"options\"].index(field_value)\n        provider = build_config[\"collection_name\"][\"options_metadata\"][index][\"provider\"]\n        build_config[\"embedding_model\"][\"advanced\"] = bool(provider)\n        build_config[\"embedding_choice\"][\"value\"] = \"Astra Vectorize\" if provider else \"Embedding Model\"\n        return build_config\n\n    @check_cached_vector_store\n    def build_vector_store(self):\n        try:\n            from langchain_astradb import AstraDBVectorStore\n        except ImportError as e:\n            msg = (\n                \"Could not import langchain Astra DB integration package. \"\n                \"Please install it with `pip install langchain-astradb`.\"\n            )\n            raise ImportError(msg) from e\n\n        # Get the embedding model and additional params\n        embedding_params = (\n            {\"embedding\": self.embedding_model}\n            if self.embedding_model and self.embedding_choice == \"Embedding Model\"\n            else {}\n        )\n\n        # Get the additional parameters\n        additional_params = self.astradb_vectorstore_kwargs or {}\n\n        # Get Langflow version and platform information\n        __version__ = get_version_info()[\"version\"]\n        langflow_prefix = \"\"\n        # if os.getenv(\"AWS_EXECUTION_ENV\") == \"AWS_ECS_FARGATE\":  # TODO: More precise way of detecting\n        #     langflow_prefix = \"ds-\"\n\n        # Get the database object\n        database = self.get_database_object()\n        autodetect = self.collection_name in database.list_collection_names() and self.autodetect_collection\n\n        # Bundle up the auto-detect parameters\n        autodetect_params = {\n            \"autodetect_collection\": autodetect,\n            \"content_field\": (\n                self.content_field\n                if self.content_field and embedding_params\n                else (\n                    \"page_content\"\n                    if embedding_params\n                    and self.collection_data(collection_name=self.collection_name, database=database) == 0\n                    else None\n                )\n            ),\n            \"ignore_invalid_documents\": self.ignore_invalid_documents,\n        }\n\n        # Attempt to build the Vector Store object\n        try:\n            vector_store = AstraDBVectorStore(\n                # Astra DB Authentication Parameters\n                token=self.token,\n                api_endpoint=database.api_endpoint,\n                namespace=database.keyspace,\n                collection_name=self.collection_name,\n                environment=self.environment,\n                # Astra DB Usage Tracking Parameters\n                ext_callers=[(f\"{langflow_prefix}langflow\", __version__)],\n                # Astra DB Vector Store Parameters\n                **autodetect_params,\n                **embedding_params,\n                **additional_params,\n            )\n        except Exception as e:\n            msg = f\"Error initializing AstraDBVectorStore: {e}\"\n            raise ValueError(msg) from e\n\n        # Add documents to the vector store\n        self._add_documents_to_vector_store(vector_store)\n\n        return vector_store\n\n    def _add_documents_to_vector_store(self, vector_store) -> None:\n        self.ingest_data = self._prepare_ingest_data()\n\n        documents = []\n        for _input in self.ingest_data or []:\n            if isinstance(_input, Data):\n                documents.append(_input.to_lc_document())\n            else:\n                msg = \"Vector Store Inputs must be Data objects.\"\n                raise TypeError(msg)\n\n        if documents and self.deletion_field:\n            self.log(f\"Deleting documents where {self.deletion_field}\")\n            try:\n                database = self.get_database_object()\n                collection = database.get_collection(self.collection_name, keyspace=database.keyspace)\n                delete_values = list({doc.metadata[self.deletion_field] for doc in documents})\n                self.log(f\"Deleting documents where {self.deletion_field} matches {delete_values}.\")\n                collection.delete_many({f\"metadata.{self.deletion_field}\": {\"$in\": delete_values}})\n            except Exception as e:\n                msg = f\"Error deleting documents from AstraDBVectorStore based on '{self.deletion_field}': {e}\"\n                raise ValueError(msg) from e\n\n        if documents:\n            self.log(f\"Adding {len(documents)} documents to the Vector Store.\")\n            try:\n                vector_store.add_documents(documents)\n            except Exception as e:\n                msg = f\"Error adding documents to AstraDBVectorStore: {e}\"\n                raise ValueError(msg) from e\n        else:\n            self.log(\"No documents to add to the Vector Store.\")\n\n    def _map_search_type(self) -> str:\n        search_type_mapping = {\n            \"Similarity with score threshold\": \"similarity_score_threshold\",\n            \"MMR (Max Marginal Relevance)\": \"mmr\",\n        }\n\n        return search_type_mapping.get(self.search_type, \"similarity\")\n\n    def _build_search_args(self):\n        query = self.search_query if isinstance(self.search_query, str) and self.search_query.strip() else None\n\n        if query:\n            args = {\n                \"query\": query,\n                \"search_type\": self._map_search_type(),\n                \"k\": self.number_of_results,\n                \"score_threshold\": self.search_score_threshold,\n            }\n        elif self.advanced_search_filter:\n            args = {\n                \"n\": self.number_of_results,\n            }\n        else:\n            return {}\n\n        filter_arg = self.advanced_search_filter or {}\n        if filter_arg:\n            args[\"filter\"] = filter_arg\n\n        return args\n\n    def search_documents(self, vector_store=None) -> list[Data]:\n        vector_store = vector_store or self.build_vector_store()\n\n        self.log(f\"Search input: {self.search_query}\")\n        self.log(f\"Search type: {self.search_type}\")\n        self.log(f\"Number of results: {self.number_of_results}\")\n\n        try:\n            search_args = self._build_search_args()\n        except Exception as e:\n            msg = f\"Error in AstraDBVectorStore._build_search_args: {e}\"\n            raise ValueError(msg) from e\n\n        if not search_args:\n            self.log(\"No search input or filters provided. Skipping search.\")\n            return []\n\n        docs = []\n        search_method = \"search\" if \"query\" in search_args else \"metadata_search\"\n\n        try:\n            self.log(f\"Calling vector_store.{search_method} with args: {search_args}\")\n            docs = getattr(vector_store, search_method)(**search_args)\n        except Exception as e:\n            msg = f\"Error performing {search_method} in AstraDBVectorStore: {e}\"\n            raise ValueError(msg) from e\n\n        self.log(f\"Retrieved documents: {len(docs)}\")\n\n        data = docs_to_data(docs)\n        self.log(f\"Converted documents to data: {len(data)}\")\n        self.status = data\n\n        return data\n\n    def get_retriever_kwargs(self):\n        search_args = self._build_search_args()\n\n        return {\n            \"search_type\": self._map_search_type(),\n            \"search_kwargs\": search_args,\n        }\n"
+              },
+              "collection_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "description": "Please allow several seconds for creation to complete.",
+                        "display_name": "Create new collection",
+                        "field_order": [
+                          "01_new_collection_name",
+                          "02_embedding_generation_provider",
+                          "03_embedding_generation_model",
+                          "04_dimension"
+                        ],
+                        "name": "create_collection",
+                        "template": {
+                          "01_new_collection_name": {
+                            "_input_type": "StrInput",
+                            "advanced": false,
+                            "display_name": "Name",
+                            "dynamic": false,
+                            "info": "Name of the new collection to create in Astra DB.",
+                            "list": false,
+                            "list_add_label": "Add More",
+                            "load_from_db": false,
+                            "name": "new_collection_name",
+                            "placeholder": "",
+                            "required": true,
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "str",
+                            "value": ""
+                          },
+                          "02_embedding_generation_provider": {
+                            "_input_type": "DropdownInput",
+                            "advanced": false,
+                            "combobox": false,
+                            "dialog_inputs": {},
+                            "display_name": "Embedding generation method",
+                            "dynamic": false,
+                            "helper_text": "To create collections with more embedding provider options, go to <a class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://astra.datastax.com/org/0c0826b8-727b-4c2f-ad77-eefaf25f7ae7/database/5e074ff1-a1f4-4168-9ed8-2115e41b515d/data-explorer?createCollection=1&namespace=default_keyspace\">your database in Astra DB</a>.",
+                            "info": "Provider to use for generating embeddings.",
+                            "name": "embedding_generation_provider",
+                            "options": [
+                              "Bring your own",
+                              "Nvidia"
+                            ],
+                            "options_metadata": [
+                              {
+                                "icon": "vectorstores"
+                              },
+                              {
+                                "icon": "NVIDIA"
+                              }
+                            ],
+                            "placeholder": "",
+                            "real_time_refresh": true,
+                            "required": true,
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "str",
+                            "value": ""
+                          },
+                          "03_embedding_generation_model": {
+                            "_input_type": "DropdownInput",
+                            "advanced": false,
+                            "combobox": false,
+                            "dialog_inputs": {},
+                            "display_name": "Embedding model",
+                            "dynamic": false,
+                            "info": "Model to use for generating embeddings.",
+                            "name": "embedding_generation_model",
+                            "options": [],
+                            "options_metadata": [],
+                            "placeholder": null,
+                            "readonly": "",
+                            "real_time_refresh": true,
+                            "required": true,
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "str",
+                            "value": null
+                          },
+                          "04_dimension": {
+                            "_input_type": "IntInput",
+                            "advanced": false,
+                            "display_name": "Dimensions",
+                            "dynamic": false,
+                            "info": "Dimensions of the embeddings to generate.",
+                            "list": false,
+                            "list_add_label": "Add More",
+                            "name": "dimension",
+                            "placeholder": 1024,
+                            "readonly": true,
+                            "required": "",
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "int",
+                            "value": 1024
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "functionality": "create"
+                },
+                "display_name": "Collection",
+                "dynamic": false,
+                "info": "The name of the collection within Astra DB where the vectors will be stored.",
+                "name": "collection_name",
+                "options": [
+                  "linkedin_data",
+                  "resume_data"
+                ],
+                "options_metadata": [
+                  {
+                    "icon": "NVIDIA",
+                    "model": "NV-Embed-QA",
+                    "provider": "nvidia",
+                    "records": 12
+                  },
+                  {
+                    "icon": "NVIDIA",
+                    "model": "NV-Embed-QA",
+                    "provider": "nvidia",
+                    "records": 4
+                  }
+                ],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "resume_data"
+              },
+              "content_field": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Content Field",
+                "dynamic": false,
+                "info": "Field to use as the text content field for the vector store.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "content_field",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "database_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "description": "Please allow several minutes for creation to complete.",
+                        "display_name": "Create new database",
+                        "field_order": [
+                          "01_new_database_name",
+                          "02_cloud_provider",
+                          "03_region"
+                        ],
+                        "name": "create_database",
+                        "template": {
+                          "01_new_database_name": {
+                            "_input_type": "StrInput",
+                            "advanced": false,
+                            "display_name": "Name",
+                            "dynamic": false,
+                            "info": "Name of the new database to create in Astra DB.",
+                            "list": false,
+                            "list_add_label": "Add More",
+                            "load_from_db": false,
+                            "name": "new_database_name",
+                            "placeholder": "",
+                            "required": true,
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "str",
+                            "value": ""
+                          },
+                          "02_cloud_provider": {
+                            "_input_type": "DropdownInput",
+                            "advanced": false,
+                            "combobox": false,
+                            "dialog_inputs": {},
+                            "display_name": "Cloud provider",
+                            "dynamic": false,
+                            "info": "Cloud provider for the new database.",
+                            "name": "cloud_provider",
+                            "options": [
+                              "Amazon Web Services",
+                              "Google Cloud Platform",
+                              "Microsoft Azure"
+                            ],
+                            "options_metadata": [],
+                            "placeholder": "",
+                            "real_time_refresh": true,
+                            "required": true,
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "str",
+                            "value": ""
+                          },
+                          "03_region": {
+                            "_input_type": "DropdownInput",
+                            "advanced": false,
+                            "combobox": false,
+                            "dialog_inputs": {},
+                            "display_name": "Region",
+                            "dynamic": false,
+                            "info": "Region for the new database.",
+                            "name": "region",
+                            "options": [
+                              "us-east-2",
+                              "ap-south-1",
+                              "eu-west-1"
+                            ],
+                            "options_metadata": [],
+                            "placeholder": "",
+                            "required": true,
+                            "show": true,
+                            "title_case": false,
+                            "tool_mode": false,
+                            "trace_as_metadata": true,
+                            "type": "str",
+                            "value": ""
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "functionality": "create"
+                },
+                "display_name": "Database",
+                "dynamic": false,
+                "info": "The Database name for the Astra DB instance.",
+                "name": "database_name",
+                "options": [
+                  "resumes",
+                  "linkedin_data"
+                ],
+                "options_metadata": [
+                  {
+                    "api_endpoint": "https://5e074ff1-a1f4-4168-9ed8-2115e41b515d-us-east-2.apps.astra.datastax.com",
+                    "collections": 2,
+                    "org_id": "0c0826b8-727b-4c2f-ad77-eefaf25f7ae7",
+                    "status": null
+                  },
+                  {
+                    "api_endpoint": "https://9203a773-da41-4c72-981c-0fa73f64c178-us-east-2.apps.astra.datastax.com",
+                    "collections": 0,
+                    "org_id": "0c0826b8-727b-4c2f-ad77-eefaf25f7ae7",
+                    "status": null
+                  }
+                ],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "resumes"
+              },
+              "deletion_field": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Deletion Based On Field",
+                "dynamic": false,
+                "info": "When this parameter is provided, documents in the target collection with metadata field values matching the input metadata field value will be deleted before new data is loaded.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "deletion_field",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "embedding_choice": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Embedding Model or Astra Vectorize",
+                "dynamic": false,
+                "info": "Choose an embedding model or use Astra Vectorize.",
+                "name": "embedding_choice",
+                "options": [
+                  "Embedding Model",
+                  "Astra Vectorize"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Astra Vectorize"
+              },
+              "embedding_model": {
+                "_input_type": "HandleInput",
+                "advanced": true,
+                "display_name": "Embedding Model",
+                "dynamic": false,
+                "info": "Specify the Embedding Model. Not required for Astra Vectorize collections.",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "embedding_model",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "environment": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Environment",
+                "dynamic": false,
+                "info": "The environment for the Astra DB API Endpoint.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "environment",
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "ignore_invalid_documents": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Ignore Invalid Documents",
+                "dynamic": false,
+                "info": "Boolean flag to determine whether to ignore invalid documents at runtime.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "ignore_invalid_documents",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "ingest_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Ingest Data",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "ingest_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "keyspace": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Keyspace",
+                "dynamic": false,
+                "info": "Optional keyspace within Astra DB to use for the collection.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "keyspace",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "number_of_results": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Search Results",
+                "dynamic": false,
+                "info": "Number of search results to return.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "number_of_results",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 4
+              },
+              "search_query": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Search Query",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "search_query",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "INSERT INTO candidate_profiles (   message_id,   full_name,   phone_number,   email_address,   linkedin_profile,   github_profile,   relevant_skills,   category,   score,   summary ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
+              },
+              "search_score_threshold": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Search Score Threshold",
+                "dynamic": false,
+                "info": "Minimum similarity score threshold for search results. (when using 'Similarity with score threshold')",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "search_score_threshold",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": 0
+              },
+              "search_type": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Search Type",
+                "dynamic": false,
+                "info": "Search type to use",
+                "name": "search_type",
+                "options": [
+                  "Similarity",
+                  "Similarity with score threshold",
+                  "MMR (Max Marginal Relevance)"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Similarity"
+              },
+              "should_cache_vector_store": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Cache Vector Store",
+                "dynamic": false,
+                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_cache_vector_store",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "token": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Astra DB Application Token",
+                "dynamic": false,
+                "info": "Authentication token for accessing Astra DB.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "token",
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": "ASTRA_DB_APPLICATION_TOKEN"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "AstraDB"
+        },
+        "dragging": false,
+        "id": "AstraDB-aQM8K",
+        "measured": {
+          "height": 569,
+          "width": 320
+        },
+        "position": {
+          "x": 3280.7884990251305,
+          "y": -774.0923752833086
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "TextInput-SiMRA",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "",
+            "display_name": "Job Description",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value"
+            ],
+            "frozen": false,
+            "icon": "type",
+            "legacy": false,
+            "lf_version": "1.3.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "text_response",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.io.text import TextComponent\nfrom langflow.io import MultilineInput, Output\nfrom langflow.schema.message import Message\n\n\nclass TextInputComponent(TextComponent):\n    display_name = \"Text Input\"\n    description = \"Get text inputs from the Playground.\"\n    icon = \"type\"\n    name = \"TextInput\"\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Text to be passed as input.\",\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Message\", name=\"text\", method=\"text_response\"),\n    ]\n\n    def text_response(self) -> Message:\n        return Message(\n            text=self.input_value,\n        )\n"
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Text to be passed as input.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Job Description: DevOps Manager (Chennai, Full-Time)\nPosition Title: DevOps Manager\nLocation: Chennai, India\nJob Type: Full-time\nDepartment: Engineering/Technology\n\nOverview:\nWe are looking for an experienced DevOps Manager to lead and manage our DevOps team in Chennai. In this role, you will be responsible for overseeing the development, implementation, and optimization of the DevOps processes, ensuring the efficiency and scalability of our systems. You will drive the continuous improvement of our software development and deployment pipelines, collaborate with cross-functional teams, and lead the efforts to enhance system performance, security, and reliability.\n\nKey Responsibilities:\nTeam Leadership: Lead and mentor a team of DevOps engineers, fostering a culture of collaboration, continuous learning, and high performance.\n\nCI/CD Pipeline Management: Oversee the development, implementation, and optimization of Continuous Integration/Continuous Deployment (CI/CD) pipelines to automate testing and deployment processes.\n\nInfrastructure Management: Manage cloud infrastructure (AWS, Azure, GCP) and on-premise systems to ensure scalability, reliability, and cost-efficiency.\n\nAutomation & Tooling: Drive the automation of manual processes, from provisioning and configuration management to deployment and monitoring, using tools like Jenkins, Terraform, Ansible, and others.\n\nPerformance & Monitoring: Ensure systems are proactively monitored, with the ability to diagnose and resolve issues quickly. Set up alerting and reporting systems to monitor application and infrastructure performance.\n\nCollaboration: Work closely with developers, product managers, and IT operations teams to align DevOps processes with organizational goals and improve system architecture.\n\nSecurity & Compliance: Implement and enforce security best practices in the DevOps pipeline, including vulnerability scanning, patch management, and compliance with industry regulations.\n\nCost Management: Monitor and optimize cloud resource usage, balancing cost and performance to ensure efficient allocation of infrastructure.\n\nInnovation & Improvement: Continuously evaluate and implement new tools, technologies, and methodologies to improve DevOps workflows, scalability, and reliability.\n\nReporting & Metrics: Track key performance indicators (KPIs) for DevOps processes and report on progress, identifying areas for improvement and executing action plans accordingly.\n\nRequired Skills & Qualifications:\nExperience: 5+ years of experience in DevOps, with at least 2 years in a leadership or managerial role. Proven experience in managing DevOps teams and implementing best practices.\n\nScripting & Programming: Strong proficiency in scripting languages like Python, Bash, or PowerShell. Experience with DevOps tools such as Jenkins, GitLab CI, or CircleCI.\n\nCloud & Infrastructure Management: In-depth knowledge of cloud platforms (AWS, Azure, GCP) and containerization technologies like Docker and Kubernetes.\n\nInfrastructure as Code (IaC): Expertise in Infrastructure as Code (IaC) tools like Terraform, CloudFormation, or Ansible for automating infrastructure provisioning and management.\n\nCI/CD Pipeline Management: Proven experience in managing CI/CD pipelines and integrating them with version control systems like Git.\n\nMonitoring & Logging: Familiarity with monitoring and logging tools such as Prometheus, Grafana, ELK stack, or Splunk.\n\nSecurity & Compliance: Experience implementing security best practices in the software development lifecycle, including DevSecOps practices.\n\nLeadership & Collaboration: Strong leadership, communication, and interpersonal skills, with a proven ability to manage teams, drive collaboration, and execute on strategic goals.\n\nProblem-Solving: Excellent troubleshooting skills with the ability to analyze complex system issues and provide effective solutions.\n\nAgile & Scrum Experience: Experience working in Agile and Scrum development environments.\n\nDesired Skills:\nCertifications: AWS Certified Solutions Architect, Azure Solutions Architect Expert, or similar certifications in cloud platforms.\n\nDatabase Management: Experience working with both SQL and NoSQL databases in a DevOps environment.\n\nAdvanced Automation Tools: Expertise in advanced DevOps tools and techniques for system automation and orchestration.\n\nBenefits:\nCompetitive Salary\n\nHealth & Wellness Programs\n\nFlexible Work Hours\n\nProfessional Development and Growth Opportunities\n\nCollaborative and Innovative Team Culture"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "TextInput"
+        },
+        "dragging": false,
+        "id": "TextInput-SiMRA",
+        "measured": {
+          "height": 197,
+          "width": 320
+        },
+        "position": {
+          "x": 911.22700052682,
+          "y": -702.8728358858027
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": -328.478871230658,
+      "y": 547.5549388047644,
+      "zoom": 0.42418152650545027
+    }
+  },
+  "description": "A simple but powerful starter agent.",
+  "endpoint_name": null,
+  "folder_id": "ccdb789c-7613-4856-ad24-5ddd096ce870",
+  "fs_path": null,
+  "gradient": null,
+  "icon": null,
+  "icon_bg_color": null,
+  "id": "e8d9908e-eb56-4d52-842c-f827fbe23e0c",
+  "is_component": false,
+  "locked": false,
+  "name": "RESUME_SCREEN_META_Llama_Model",
+  "tags": [
+    "assistants",
+    "agents"
+  ],
+  "updated_at": "2025-06-18T05:42:59+00:00",
+  "user_id": "4c0023fe-ea34-4260-8de0-aca3e8088328",
+  "webhook": false
+}
